@@ -11,8 +11,8 @@
 #SBATCH --mail-type=ALL
 
 module load bioinfo-tools
-module load R/4.4.2
-module load DESeq2/1.36.0
+module load R_packages/4.3.1
+R
 cd /proj/uppmax2025-3-3/nobackup/work/doga
 Rscript deseq2_analysis.R
 

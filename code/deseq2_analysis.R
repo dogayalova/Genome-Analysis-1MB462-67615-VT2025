@@ -1,8 +1,3 @@
-install.packages("BiocManager")
-
-BiocManager::install("DESeq2")
-
-
 # Load DESeq2
 library("DESeq2")
 
@@ -11,12 +6,12 @@ setwd("/proj/uppmax2025-3-3/nobackup/work/doga")
 
 # List of your HTSeq count files
 count_files <- c(
-  "ERR1797969_counts.txt",
-  "ERR1797970_counts.txt",
-  "ERR1797971_counts.txt",
-  "ERR1797972_counts.txt",
-  "ERR1797973_counts.txt",
-  "ERR1797974_counts.txt"
+  "ERR1797969_counts_yes.txt",
+  "ERR1797970_counts_yes.txt",
+  "ERR1797971_counts_yes.txt",
+  "ERR1797972_counts_yes.txt",
+  "ERR1797973_counts_yes.txt",
+  "ERR1797974_counts_yes.txt"
 )
 
 # Sample condition metadata
